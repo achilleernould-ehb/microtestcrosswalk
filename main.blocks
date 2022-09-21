@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="S:eX.tn3Q{4F95gqSREG">var</variable></variables><block type="pxt-on-start" id=",UF#uq7$5=F$]/Dd`xaX" x="0" y="0"></block><block type="device_forever" id="mKR4*o?s`vRvu.A;Hwxn" x="351" y="-5"><statement name="HANDLER"><block type="controls_if" id="d8)cpp2+R..CQzpxtkYd"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="v7PZeRbSDw^``id]Ibxv"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="device_show_leds" id="qa(D}iZh?qr/#piUNc7i"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="playMelody" id="yC$U+!V98Lmd0?B]M;S}"><value name="melody"><shadow type="melody_editor" id="xpq_C:X%GIqgfb?CZJ(g"><field name="melody">"E E E C D C - C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="s}]JcJ)Ry?0lI}nBS[|M"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="h9i;Z,.4_?@8YE+lnqdE"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block></statement></block></xml>
